@@ -3,13 +3,8 @@
 # Partner 2: Emy Bijoy
 
 import math
-
-<<<<<<< HEAD
 # First example
-def add(a, b): 
-=======
 def add(a, b):
->>>>>>> b257e6e8d93e746eef00ad91c9da15cb970ce940
     return a + b
 
 def sub(a, b):
@@ -45,9 +40,4 @@ def hypotenuse(a, b):
         return math.hypot(a, b)
     except Exception as e:
         print(f"Error in hypotenuse: {e}")
-<<<<<<< HEAD
         return None
-=======
-        return None
-
->>>>>>> b257e6e8d93e746eef00ad91c9da15cb970ce940
