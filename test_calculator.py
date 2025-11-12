@@ -21,13 +21,14 @@ class TestCalculator(unittest.TestCase):
     ####### Partner 1
     def test_multiply(self): # 3 assertions
         self.assertEqual(mul(3, 5), 15)
-        self.assertEqual(mul(-2, 3), 6)
+        self.assertEqual(mul(-2, 3), -6)
         self.assertEqual(mul(0, 11), 0)
 
     def test_divide(self): # 3 assertions
         self.assertEqual(div(5, 15), 3)
         self.assertEqual(div(2,20), 10)
-        self.assertEqual(div(0, 7), "Cannot divide by zero")
+        with self.assertRaises(ZeroDivisionError):
+            div(0, 7)
 
     ######## Partner 2
     def test_divide_by_zero(self): # 1 assertion
