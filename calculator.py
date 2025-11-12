@@ -48,18 +48,3 @@ def hypotenuse(a, b):
         return None
 
 >>>>>>> f531f013ca2fb4e47eb8dce78913821ac6238dee
-
-def add(a, b):
-    a+b
-
-def sub(a, b):
-    a-b
-
-def mul(a, b):
-    a*b
-
-def log(a, b):
-    math.log(b, a)
-
-def exp(a, b):
-    a**b
