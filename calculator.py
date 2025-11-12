@@ -10,9 +10,7 @@ One function per operation, in order.
 
 import math
 
-<<<<<<< HEAD
-# First example
-def add(a, b): 
+def add(a, b):
     return a + b
 
 def sub(a, b):
@@ -33,7 +31,7 @@ def log(a, b):
 
 def exp(a, b):
     return a ** b
-=======
+
 def square_root(a):
    try:
        if a < 0:
@@ -51,4 +49,3 @@ def hypotenuse(a, b):
         print(f"Error in hypotenuse: {e}")
         return None
 
->>>>>>> f531f013ca2fb4e47eb8dce78913821ac6238dee
