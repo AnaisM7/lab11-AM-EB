@@ -4,6 +4,10 @@ calculator.py
 
 One function per operation, in order.
 """
+# https://github.com/AnaisM7/lab11-AM-EB.git
+# Partner 1: Anais Maldonado
+# Partner 2: Emy Bijoy
+
 import math
 
 <<<<<<< HEAD
